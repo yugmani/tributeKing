@@ -1,0 +1,67 @@
+body, html {
+    margin:0;
+    padding:0;
+  }
+  #main {
+    margin:0 auto;
+    text-align:center;
+    background-color:#D3D3D3;
+  }
+  
+  #title {
+     background-color:#FFFFE0;
+     padding:20px;
+  }
+  
+  /* User Story #9: The img element should be centered within its parent element. */
+  #img-div {
+    margin:0 auto;
+    background-color:#C0C0C0;
+  }
+  
+  #image {
+    margin:10px;
+    max-width: 100%;
+    height:auto;
+    text-align:center;
+    border-radius:20px;
+  }
+  
+  #img-caption {
+    font-size:25px;
+    padding:10px;
+    color:#FFD700;
+    font-weight:bold;
+  }
+  
+  #tribute-info {
+    margin:0 auto;
+    width:70%;
+    height:auto;
+    text-align:left;
+    margin-top:20px;
+    margin-bottom:25px;
+  }
+  
+  ul {
+    margin:0 auto;
+    width:70%;
+  }
+  
+  ul li {
+    padding:10px;
+    font-size:20px;
+  }
+  
+#quote {
+    
+    color:#D2691E;
+    padding:20px;
+}
+
+  #tribute-link {
+    margin:20px;
+    padding-bottom:25px;
+  }
+  
+  /* User Story #8: The img element should responsively resize, relative to the width of its parent element, without exceeding its original size. */
