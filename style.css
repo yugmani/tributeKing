@@ -2,6 +2,7 @@ body, html {
     margin:0;
     padding:0;
   }
+
   #main {
     margin:0 auto;
     text-align:center;
@@ -10,7 +11,14 @@ body, html {
   
   #title {
      background-color:#FFFFE0;
-     padding:20px;
+     padding:15px;
+  }
+
+  #title >p {
+    font-family: 'Mrs Saint Delafield', cursive;
+    font-size:25px;
+    font-weight:bold;
+    word-spacing: 1rem;
   }
   
   /* User Story #9: The img element should be centered within its parent element. */
@@ -33,7 +41,7 @@ body, html {
   #image1, #image3 {
     margin:10px;
     max-width: 100%;
-    height:80%;
+    height:auto;
     text-align:center;
     border-radius:20px;
   }
@@ -41,7 +49,7 @@ body, html {
   #img-caption {
     font-size:25px;
     padding:10px;
-    color:#FFD700;
+    color:#0000FF;
     font-weight:bold;
   }
   
@@ -52,9 +60,15 @@ body, html {
     text-align:left;
     margin-top:20px;
     margin-bottom:25px;
-    padding:10px;
+    padding:30px;
     background-color:#F8F8FF;
     border-radius:20px;
+  }
+
+  #tribute-info > * {
+    /* margin-left:10px; */
+    padding-left:30px;
+    padding-right:20px;
   }
   
   ul {
@@ -70,7 +84,7 @@ body, html {
 #quote {
     
     color:#D2691E;
-    padding:20px;
+    /* padding:20px; */
 }
 
   #tribute-link {
@@ -79,3 +93,22 @@ body, html {
   }
   
   /* User Story #8: The img element should responsively resize, relative to the width of its parent element, without exceeding its original size. */
+
+  @media only screen and (max-width: 667px) {
+
+    #img-div {
+      display:block;
+      padding-bottom:15px;
+    }
+
+    #image1,
+    #image2,
+    #image3 {
+      margin:10px;
+      max-width: 100%;
+      height:auto;
+      text-align:center;
+      border-radius:20px;
+    }
+
+  }
